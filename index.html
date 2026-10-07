@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timepass Popcorn & Cotton Candy | Live Event Stalls in Mumbai</title>
+    <meta name="description" content="Book live Popcorn, Cotton Candy, Chocolate Fountain & Gaming Counters in Mumbai for birthdays, weddings, corporate events & parties. Call +91 96190 42759!">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        popcorn: '#FFC107',
+                        cottonpink: '#FF69B4',
+                        cottonblue: '#00BFFF',
+                        chocodark: '#3E2723',
+                        festivepurple: '#4A148C'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts & FontAwesome 6 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #FF1493 0%, #FF8C00 50%, #FFD700 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.92)), url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=1600') center/cover no-repeat;
+        }
+        .pulse-call {
+            animation: pulse-ring 2s infinite;
+        }
+        @keyframes pulse-ring {
+            0% { box-shadow: 0 0 0 0 rgba(236, 72, 153, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(236, 72, 153, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(236, 72, 153, 0); }
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-pink-500 selection:text-white">
+
+    <!-- Top Announcement Bar (Phone Priority for Local SEO) -->
+    <div class="bg-gradient-to-r from-pink-600 via-amber-500 to-pink-600 text-white text-xs md:text-sm font-semibold py-2 px-4 text-center tracking-wide">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+            <span class="flex items-center gap-2 mx-auto md:mx-0">
+                <i class="fa-solid fa-star text-yellow-300"></i>
+                Mumbai's Top Rated Event Stalls & Party Snacks!
+            </span>
+            <div class="flex items-center gap-4 mx-auto md:mx-0">
+                <a href="tel:+919619042759" class="hover:underline flex items-center gap-1.5">
+                    <i class="fa-solid fa-phone-volume"></i> +91 96190 42759
+                </a>
+                <span class="hidden sm:inline">|</span>
+                <a href="https://wa.me/919619042759" target="_blank" class="hover:underline hidden sm:flex items-center gap-1.5 text-emerald-300">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Booking
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <nav class="sticky top-0 z-40 bg-slate-900/95 backdrop-blur border-b border-slate-800 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-pink-500 to-amber-400 p-0.5 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+                        <div class="w-full h-full bg-slate-900 rounded-[14px] flex items-center justify-center">
+                            <i class="fa-solid fa-candy-cane text-pink-400 text-2xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="text-xl md:text-2xl font-black tracking-tight text-white block leading-none">
+                            Timepass <span class="text-pink-500">.</span>
+                        </span>
+                        <span class="text-xs font-semibold text-amber-400 uppercase tracking-widest block">Popcorn & Candy</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                    <a href="#services" class="text-slate-300 hover:text-pink-400 transition-colors">Services</a>
+                    <a href="#about" class="text-slate-300 hover:text-pink-400 transition-colors">Why Choose Us</a>
+                    <a href="#gallery" class="text-slate-300 hover:text-pink-400 transition-colors">Gallery</a>
+                    <a href="#location" class="text-slate-300 hover:text-pink-400 transition-colors">Location</a>
+                </div>
+
+                <!-- Call CTA Header -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="tel:+919619042759" class="bg-gradient-to-r from-pink-500 to-amber-500 hover:from-pink-600 hover:to-amber-600 text-white font-bold py-2.5 px-5 rounded-full shadow-lg shadow-pink-500/20 flex items-center gap-2 text-sm transition-all hover:scale-105 pulse-call">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91 96190 42759</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="md:hidden text-slate-300 hover:text-white focus:outline-none p-2">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-slate-800 border-b border-slate-700 px-4 pt-2 pb-6 space-y-3 text-center">
+            <a href="#services" class="block py-2 text-slate-200 hover:text-pink-400 font-medium">Our Services</a>
+            <a href="#about" class="block py-2 text-slate-200 hover:text-pink-400 font-medium">About Us</a>
+            <a href="#gallery" class="block py-2 text-slate-200 hover:text-pink-400 font-medium">Gallery</a>
+            <a href="#location" class="block py-2 text-slate-200 hover:text-pink-400 font-medium">Find Us on Map</a>
+            <a href="tel:+919619042759" class="inline-flex items-center justify-center w-full py-3 bg-gradient-to-r from-pink-500 to-amber-500 text-white font-bold rounded-xl shadow-md gap-2">
+                <i class="fa-solid fa-phone"></i> Call Now: +91 96190 42759
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative hero-bg py-20 lg:py-32 overflow-hidden border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-pink-500/10 border border-pink-500/30 text-pink-400 text-xs md:text-sm font-semibold uppercase tracking-wider">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Make Every Event Unforgettable
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+                        Live Food Stalls & Fun Stalls for <span class="gradient-text">Parties & Weddings</span>
+                    </h1>
+                    
+                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Bring delicious joy to your guests with fresh hot **Popcorn**, fluffy pink **Cotton Candy**, luxurious **Chocolate Fountains**, and exciting **Gaming Counters** in Mumbai & surrounding areas!
+                    </p>
+
+                    <!-- SEO Highlight Pill -->
+                    <div class="pt-2 flex flex-wrap items-center justify-center lg:justify-start gap-3 text-xs sm:text-sm text-slate-300 font-medium">
+                        <span class="bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700 flex items-center gap-1.5">
+                            <i class="fa-solid fa-cake-candles text-pink-400"></i> Birthday Parties
+                        </span>
+                        <span class="bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700 flex items-center gap-1.5">
+                            <i class="fa-solid fa-heart text-red-400"></i> Weddings & Sangeet
+                        </span>
+                        <span class="bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700 flex items-center gap-1.5">
+                            <i class="fa-solid fa-briefcase text-blue-400"></i> Corporate Events
+                        </span>
+                    </div>
+
+                    <!-- Call To Action Group -->
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="tel:+919619042759" class="w-full sm:w-auto bg-pink-600 hover:bg-pink-700 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg shadow-pink-600/30 flex items-center justify-center gap-3 transition-all transform hover:-translate-y-0.5">
+                            <i class="fa-solid fa-phone-volume text-xl animate-bounce"></i>
+                            <span>Call +91 96190 42759</span>
+                        </a>
+                        <a href="https://wa.me/919619042759?text=Hi%2C%20I%20want%20to%20inquire%20about%20event%20stalls%20for%20my%20function." target="_blank" class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-3 transition-all transform hover:-translate-y-0.5">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>WhatsApp Instant Booking</span>
+                        </a>
+                    </div>
+
+                    <!-- Location Trust Badge -->
+                    <p class="text-xs text-slate-400 flex items-center justify-center lg:justify-start gap-1.5 pt-2">
+                        <i class="fa-solid fa-location-dot text-amber-400"></i> Based in Kandivali West, Serving All Across Mumbai & Thane
+                    </p>
+                </div>
+
+                <!-- Hero Visual Feature Box -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Middle Sticky/Featured Contact Banner -->
+    <section class="bg-gradient-to-r from-slate-800 via-pink-950 to-slate-800 py-6 border-y border-pink-500/30">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full bg-pink-500/20 text-pink-400 flex items-center justify-center text-2xl flex-shrink-0">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white">Direct Event Hotline & Enquiries</h3>
+                    <p class="text-sm text-slate-300">Speak directly with us for best custom combo packages and discounts.</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap items-center justify-center gap-3">
+                <a href="tel:+919619042759" class="bg-amber-400 hover:bg-amber-500 text-slate-900 font-extrabold px-6 py-2.5 rounded-full text-base transition-colors flex items-center gap-2 shadow-lg">
+                    <i class="fa-solid fa-phone"></i> +91 96190 42759
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid Section -->
+    <section id="services" class="py-20 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <h2 class="text-xs font-bold text-pink-500 uppercase tracking-widest">Our Event Attractions</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold text-white">Live Food Stalls & Fun Counters</p>
+                <p class="text-slate-400 text-base">We provide clean, hygienic, and attractive stall setups managed by trained uniform staff for your parties and special occasions.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Service 1: Popcorn Stall -->
+                <div class="bg-slate-800/60 border border-slate-700/60 rounded-2xl p-6 hover:border-amber-400/60 transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-bowl-food"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Live Popcorn Stall</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Fresh, piping hot salted and buttered popcorn served live to your guests in custom cones/bags.
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Fresh Live Popping Machine</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Hygienic & Clean Setup</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Uniformed Operator Included</li>
+                        </ul>
+                    </div>
+                    <a href="tel:+919619042759" class="w-full py-2.5 bg-slate-700 hover:bg-amber-500 hover:text-slate-900 text-white font-semibold text-center rounded-xl text-sm transition-colors block">
+                        Book Popcorn Machine
+                    </a>
+                </div>
+
+                <!-- Service 2: Cotton Candy -->
+                <div class="bg-slate-800/60 border border-slate-700/60 rounded-2xl p-6 hover:border-pink-400/60 transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 rounded-2xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-candy-cane"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Cotton Candy Machine</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Fluffy, sweet, colorful cotton candy spun fresh on sticks. A big favorite for kids and adult guests alike!
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Vibrant Pink & Multi-Colors</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Unlimited Fluff for Guest Count</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Kids Favorite Party Attraction</li>
+                        </ul>
+                    </div>
+                    <a href="tel:+919619042759" class="w-full py-2.5 bg-slate-700 hover:bg-pink-500 text-white font-semibold text-center rounded-xl text-sm transition-colors block">
+                        Book Cotton Candy
+                    </a>
+                </div>
+
+                <!-- Service 3: Chocolate Fountain -->
+                <div class="bg-slate-800/60 border border-slate-700/60 rounded-2xl p-6 hover:border-amber-600/60 transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 rounded-2xl bg-amber-900/30 text-amber-500 flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-whiskey-glass"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Chocolate Fountain</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Cascading rich liquid chocolate paired with marshmallows, fruit skewers, wafers, and cookies for luxury dipping.
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Premium Liquid Chocolate</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Multiple Dipping Options</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Elegant Multi-Tier Fountain</li>
+                        </ul>
+                    </div>
+                    <a href="tel:+919619042759" class="w-full py-2.5 bg-slate-700 hover:bg-amber-600 text-white font-semibold text-center rounded-xl text-sm transition-colors block">
+                        Book Chocolate Fountain
+                    </a>
+                </div>
+
+                <!-- Service 4: Gaming Counter -->
+                <div class="bg-slate-800/60 border border-slate-700/60 rounded-2xl p-6 hover:border-cyan-400/60 transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 rounded-2xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Gaming Counters</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Interactive game stalls including Ring Toss, Feed the Monster, Target Shoot, and Balloon Shooting counters for fun prizes.
+                        </p>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Engaging Carnival Games</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Complete Equipment Setup</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Game Coordinator Onsite</li>
+                        </ul>
+                    </div>
+                    <a href="tel:+919619042759" class="w-full py-2.5 bg-slate-700 hover:bg-cyan-500 hover:text-slate-900 text-white font-semibold text-center rounded-xl text-sm transition-colors block">
+                        Book Gaming Stalls
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Covered Banner -->
+    <section id="about" class="py-16 bg-slate-800/40 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-white">Events We Cater To</h2>
+                <p class="text-slate-400 text-sm mt-2">Whether big or small, we add fun and sweetness to every celebration!</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
+                    <div class="text-3xl text-pink-400 mb-3"><i class="fa-solid fa-cake-candles"></i></div>
+                    <h4 class="font-bold text-white">Birthday Parties</h4>
+                    <p class="text-xs text-slate-400 mt-1">Kids & Adult Celebrations</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
+                    <div class="text-3xl text-amber-400 mb-3"><i class="fa-solid fa-rings-wedding"></i></div>
+                    <h4 class="font-bold text-white">Weddings & Sangeet</h4>
+                    <p class="text-xs text-slate-400 mt-1">Grand Reception Counters</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
+                    <div class="text-3xl text-blue-400 mb-3"><i class="fa-solid fa-building-user"></i></div>
+                    <h4 class="font-bold text-white">Corporate Events</h4>
+                    <p class="text-xs text-slate-400 mt-1">Family Days & Fairs</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
+                    <div class="text-3xl text-emerald-400 mb-3"><i class="fa-solid fa-champagne-glasses"></i></div>
+                    <h4 class="font-bold text-white">School Fests & Societies</h4>
+                    <p class="text-xs text-slate-400 mt-1">Housing Society Functions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <h2 class="text-xs font-bold text-amber-400 uppercase tracking-widest">Our Showcase</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold text-white">See Our Stalls In Action</p>
+                <p class="text-slate-400 text-base">A glimpse of our attractive stall setups and delicious treats enjoyed by happy clients.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="group relative rounded-2xl overflow-hidden bg-slate-800 h-64 border border-slate-700">
+                    <img src="https://images.unsplash.com/photo-1585647347483-22b66260dfff?auto=format&fit=crop&q=80&w=800" alt="Fresh Popcorn Stall" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="text-xs font-bold uppercase text-amber-400">Popcorn Machine</span>
+                        <h4 class="text-lg font-bold text-white">Hot & Fresh Popcorn Machine</h4>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden bg-slate-800 h-64 border border-slate-700">
+                    <img src="https://images.unsplash.com/photo-1575224300306-1b8da36134ec?auto=format&fit=crop&q=80&w=800" alt="Live Cotton Candy Stall" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="text-xs font-bold uppercase text-pink-400">Cotton Candy</span>
+                        <h4 class="text-lg font-bold text-white">Fluffy Pink Cotton Candy Counter</h4>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden bg-slate-800 h-64 border border-slate-700">
+                    <img src="https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=800" alt="Chocolate Fountain Setup" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="text-xs font-bold uppercase text-amber-600">Delicious Treats</span>
+                        <h4 class="text-lg font-bold text-white">Multi-Tier Chocolate Fountain</h4>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden bg-slate-800 h-64 border border-slate-700">
+                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=800" alt="Carnival Gaming Counter" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="text-xs font-bold uppercase text-cyan-400">Game Zone</span>
+                        <h4 class="text-lg font-bold text-white">Fun Carnival Gaming Stalls</h4>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden bg-slate-800 h-64 border border-slate-700">
+                    <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&q=80&w=800" alt="Birthday Party Decoration & Snacks" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="text-xs font-bold uppercase text-purple-400">Celebration</span>
+                        <h4 class="text-lg font-bold text-white">Birthday Party Setup</h4>
+                    </div>
+                </div>
+
+                <div class="group relative rounded-2xl overflow-hidden bg-slate-800 h-64 border border-slate-700">
+                    <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&q=80&w=800" alt="Party Event Counter" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+                    <div class="absolute bottom-4 left-4 right-4">
+                        <span class="text-xs font-bold uppercase text-emerald-400">Weddings</span>
+                        <h4 class="text-lg font-bold text-white">Live Snack Counters</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Business Profile Location & Contact Section -->
+    <section id="location" class="py-20 bg-slate-800/50 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Contact Info Column -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-amber-400/10 text-amber-400 text-xs font-bold uppercase">
+                        <i class="fa-solid fa-map-pin"></i> Google Business Location
+                    </div>
+
+                    <h2 class="text-3xl font-extrabold text-white">Visit Or Contact Us</h2>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        We are conveniently based in Kandivali, Mumbai. Call us or visit us for directly discussing stall packages for your upcoming event!
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <!-- Address -->
+                        <div class="flex items-start gap-4 p-4 bg-slate-800 rounded-2xl border border-slate-700">
+                            <div class="w-10 h-10 rounded-xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-xl flex-shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider">Address</h4>
+                                <p class="text-sm font-semibold text-white mt-1">
+                                    Sunder Nagar, Tank Lane, Near Shiv Shankar Mandir,<br>
+                                    Kandivali, Mumbai, Maharashtra – 400067, India
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Phone Number Highlight -->
+                        <div class="flex items-start gap-4 p-4 bg-slate-800 rounded-2xl border border-slate-700">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl flex-shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider">Phone & WhatsApp Hotline</h4>
+                                <a href="tel:+919619042759" class="text-lg font-bold text-amber-400 hover:underline block mt-1">
+                                    +91 96190 42759
+                                </a>
+                                <p class="text-xs text-slate-400 mt-0.5">Available 24/7 for booking inquiries</p>
+                            </div>
+                        </div>
+
+                        <!-- Service Hours -->
+                        <div class="flex items-start gap-4 p-4 bg-slate-800 rounded-2xl border border-slate-700">
+                            <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center text-xl flex-shrink-0">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider">Working Hours</h4>
+                                <p class="text-sm font-semibold text-white mt-1">Monday – Sunday: 9:00 AM – 10:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Get Directions CTA Button -->
+                    <a href="https://maps.google.com/?q=Sunder+Nagar,+Tank+Lane,+Near+Shiv+Shankar+Mandir,+Kandivali,+Mumbai,+Maharashtra+400067" target="_blank" class="inline-flex items-center justify-center gap-3 w-full bg-slate-700 hover:bg-slate-600 text-white font-bold py-3.5 px-6 rounded-xl transition-all text-sm border border-slate-600">
+                        <i class="fa-solid fa-diamond-turn-right text-amber-400 text-lg"></i>
+                        <span>Get Directions on Google Maps</span>
+                    </a>
+                </div>
+
+                <!-- Google Maps Interactive Embed Window -->
+                <div class="lg:col-span-7">
+                    <div class="bg-slate-800 p-2 rounded-3xl border border-slate-700 shadow-2xl h-[400px] lg:h-[480px] relative overflow-hidden">
+                        <iframe 
+                            class="w-full h-full rounded-2xl"
+                            src="https://maps.app.goo.gl/PkE5tc5iL4WhVouD6" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Comprehensive Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 pb-8 border-b border-slate-800">
+                
+                <!-- Business Info Column -->
+                <div class="space-y-4">
+                    <a href="#" class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-pink-500 to-amber-400 p-0.5 flex items-center justify-center">
+                            <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
+                                <i class="fa-solid fa-candy-cane text-pink-400"></i>
+                            </div>
+                        </div>
+                        <span class="text-xl font-bold text-white">Timepass Popcorn & Cotton Candy</span>
+                    </a>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Mumbai's trusted partner for live popcorn machines, cotton candy counters, chocolate fountains, and game stalls for all celebratory events.
+                    </p>
+                </div>
+
+                <!-- Quick Services List -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4">Our Key Services</h4>
+                    <ul class="text-xs space-y-2">
+                        <li><a href="#services" class="hover:text-pink-400 transition-colors">Popcorn Machine Stall Hire</a></li>
+                        <li><a href="#services" class="hover:text-pink-400 transition-colors">Live Pink Cotton Candy Counter</a></li>
+                        <li><a href="#services" class="hover:text-pink-400 transition-colors">Chocolate Fountain Rental</a></li>
+                        <li><a href="#services" class="hover:text-pink-400 transition-colors">Kids & Carnival Gaming Counters</a></li>
+                        <li><a href="#services" class="hover:text-pink-400 transition-colors">Birthday & Wedding Party Combos</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Direct Phone & Address -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4">Direct Contact & Booking</h4>
+                    <p class="text-xs text-slate-300 font-semibold mb-2">
+                        <i class="fa-solid fa-phone text-pink-500 mr-2"></i> Hotline: 
+                        <a href="tel:+919619042759" class="text-amber-400 hover:underline font-bold text-sm ml-1">+91 96190 42759</a>
+                    </p>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        <i class="fa-solid fa-location-dot text-amber-400 mr-2"></i> 
+                        Sunder Nagar, Tank Lane, Near Shiv Shankar Mandir, Kandivali, Mumbai, Maharashtra – 400067
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+                <p>&copy; Timepass Popcorn and Cotton Candy. All rights reserved.</p>
+                <div class="flex items-center gap-4">
+                    <a href="tel:+919619042759" class="text-pink-400 font-bold hover:underline">Call: +91 96190 42759</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Quick Call & WhatsApp Action Buttons for Mobile -->
+    <div class="fixed bottom-4 right-4 z-50 flex flex-col gap-3">
+        <!-- WhatsApp Floating Button -->
+        <a href="https://wa.me/919619042759?text=Hi%2C%20I%20want%20to%20book%20a%20stall%20for%20an%20event." target="_blank" class="w-14 h-14 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full flex items-center justify-center text-2xl shadow-2xl hover:scale-110 transition-transform">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <!-- Direct Phone Floating Button -->
+        <a href="tel:+919619042759" class="w-14 h-14 bg-pink-600 hover:bg-pink-700 text-white rounded-full flex items-center justify-center text-2xl shadow-2xl pulse-call hover:scale-110 transition-transform">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+    </div>
+
+    <script>
+        // Toggle Mobile Navigation Menu
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Close mobile menu when clicking a link
+            document.querySelectorAll('#mobileMenu a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+        }
+
+        // Handle Hero Quick Inquiry Form -> Redirect directly to WhatsApp
+        const heroInquiryForm = document.getElementById('heroInquiryForm');
+        if (heroInquiryForm) {
+            heroInquiryForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const inputs = this.querySelectorAll('input, select');
+                const name = inputs[0]?.value || '';
+                const phone = inputs[1]?.value || '';
+                const service = inputs[2]?.value || '';
+                const eventDetails = inputs[3]?.value || '';
+
+                const whatsappMessage = `*New Event Booking Inquiry*%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Phone:* ${encodeURIComponent(phone)}%0A*Service:* ${encodeURIComponent(service)}%0A*Event Info:* ${encodeURIComponent(eventDetails)}`;
+                
+                // Redirect to WhatsApp with filled details
+                window.open(`https://wa.me/919619042759?text=${whatsappMessage}`, '_blank');
+            });
+        }
+    </script>
+</body>
+</html>
